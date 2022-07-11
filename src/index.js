@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./components/RegisterPage/RegisterPage.css";
 import "./components/LoginPage/LoginPage.css";
 import "./components/HomePage/HomePage.css";
+import "./components/GamePage/GamePage.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

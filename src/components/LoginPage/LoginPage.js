@@ -1,4 +1,5 @@
-import { TextField, Link, Button } from "@mui/material";
+import { TextField, Button } from "@mui/material";
+import { Link } from "react-router-dom";
 function LoginPage() {
   return (
     <div className="login-form">
@@ -8,12 +9,7 @@ function LoginPage() {
       <Button className="sign-in-button" variant="outlined">
         Sign in
       </Button>
-      <Link
-        className="Already-account-link"
-        href="Already have an account?"
-        underline="none"
-        color="black"
-      >
+      <Link to="/register" className="Already-account-link" underline="none">
         Don't have an account?
       </Link>
     </div>

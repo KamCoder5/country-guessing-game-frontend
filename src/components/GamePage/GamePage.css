@@ -1,0 +1,12 @@
+.game-screen {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.answer-option {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  border: dotted;
+}
